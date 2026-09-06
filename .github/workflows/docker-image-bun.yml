@@ -40,8 +40,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            zuohuadong/networkdownload:bun
-            zuohuadong/networkdownload:bun-${{ steps.date.outputs.date }}
+            xiaoxiao0738/networkdownload:bun
+            xiaoxiao0738/networkdownload:bun-${{ steps.date.outputs.date }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
